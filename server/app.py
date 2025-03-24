@@ -26,4 +26,4 @@ api = Api(app)
 api.add_namespace(students)  # Add the students namespace to the API
 
 if __name__ == "__main__":
-    app.run(debug=True, port=6969, host="0.0.0.0")
+    app.run(debug=False, port=6969, host="127.0.0.1")
